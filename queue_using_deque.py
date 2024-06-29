@@ -10,4 +10,7 @@ q.append(30)
 q.append(40)
 
 q.popleft()
+
+print("Front : ",q[-1])
+print("Rear : ",q[0])
 print(q)
